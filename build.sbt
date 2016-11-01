@@ -2,7 +2,7 @@ import CommonDependency.dependencies
 
 organization in ThisBuild := "io.github.junheng.akka"
 
-lazy val root = (project in file("."))
+lazy val `akka-accessor` = (project in file("."))
   .settings(
     name := "akka-accessor",
     version := "0.1-SNAPSHOT",
